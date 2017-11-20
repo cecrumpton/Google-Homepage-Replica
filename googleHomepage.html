@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Bootstrap probably isn't the best option for the top menu, but works well with the search area -->
+<html>
+  <head>
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS stylesheet link-->
+  <link rel = "stylesheet" href="googleStyle.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+  <title>Google Replica Homepage</title>
+  </head>
+  <body>
+    <div id="header">
+       <div id="leftHeader">
+          <a href="#" id="about">About</a>
+          <a href="#" id="store">Store</a>
+       </div>
+       <div id="rightHeader">
+          <a href="#" id="gmail">Gmail</a>
+          <a href="#" id="images">Images</a>
+          <a href="#" id="coolButton">
+            <i class="fa fa-th" aria-hidden="true"></i>
+          </a>
+          <button onclick="#" class="btn btn-primary" id="signIn">Sign in</button>
+       </div>
+    </div>
+
+    <div class="container" id="search">
+      <div class="row">
+      <div class="col">
+      </div>
+      <div class="col text-center">
+      <div id="googleLogo">
+      <!--Need to change dimmensions of this picture in photoshop in order to improve processing power-->
+      <img src="googleImage.png" width="300" height="100">
+      </div>
+      <input type="text" name="search" href="#">
+      <!--May want to use a margin here instead of line break elements-->
+      <br>
+      <br>
+      <button id="googleSearch">Google Search</button>
+      <button id="imFeelingLucky">I'm Feeling Lucky</button>
+      </div>
+      <div class="col">
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
